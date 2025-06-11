@@ -1,0 +1,11 @@
+#include <iostream>
+#include <string>
+int main() {
+    std::string myString = "Hello, C++!";
+    std::size_t length = myString.length();
+    std::cout << "The string is: \"" << myString << "\"" << std::endl;
+    std::cout << "Its length is: " << length << std::endl;
+    std::string emptyString = "";
+    std::cout << "The length of an empty string is: " << emptyString.length() << std::endl;
+    return 0;
+}
